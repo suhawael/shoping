@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project defaulh="all" >
+<project  >
 <property name="cartsh.java.dir" location ="./src/cartsh"/> 
 
 <property name="result.dir" location ="./target"/> 
@@ -17,8 +17,7 @@
 <fileset dir="${result.javaclasses.dir}"></fileset>
 
 </target>
-
-
+ 
 
 <path id="necessarylibraries">
   <pathelement location="./usedlibraries/junit-4.12.jar"/>
