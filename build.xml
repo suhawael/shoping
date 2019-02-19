@@ -33,7 +33,7 @@
     </javac>
 </target>
 
-<target name="test" depends="compile-testcases">
+<target name="test" depends="compile">
   <junit printsummary="true" haltonfailure="true" fork="true">
     <calsspath>
     <path refid="necessarylibraries"></path>
