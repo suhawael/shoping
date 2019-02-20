@@ -31,7 +31,8 @@
     <pathelement location="${result.javaclasses.dir}"/>
     </classpath>
     </javac>
-</target>
+</target>  
+	
 
 <target name="test" depends="compile-testcases">
   <junit printsummary="true" haltonfailure="true" fork="true">
