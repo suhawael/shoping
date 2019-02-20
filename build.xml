@@ -19,7 +19,7 @@
  
 
 <path id="necessarylibraries">
-  <pathelement location="./usedlibraries/junit-4.12.jar"/>
+  <pathelement location="./usedlibraries/junit-4.jar"/>
   <pathelement location="./usedlibraries/hamcrest-core-1.3.jar"/>
 </path>
 
