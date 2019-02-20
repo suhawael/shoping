@@ -7,9 +7,9 @@
 <property name="result.testclasses.dir" location ="${result.dir}/testclasses"/> 
 <property name="result.jar.file" location =".myproduct.jar"/> 
 	
-<target name= "compile">
+<target name= "compile"   >
     <mkdir dir="${result.javaclasses.dir}"/>
-    <javac srcdir="${cartsh.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false"></javac>
+    <javac srcdir="${cartsh.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false"  classpath="C:\Users\ASUS\eclipse-workspace\cartsh\cartsh\junit-4.12"></javac>
 </target>
 	
 <target name= "jar" depends="compile">
